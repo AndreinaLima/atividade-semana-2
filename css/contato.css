@@ -1,0 +1,194 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f2e7dc;
+}
+
+/* Header */
+.cabecalho {
+  background-color: #f2a03d;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.cabecalho img {
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: #731212;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+.navbar a:hover {
+  color: #f2e7dc;
+}
+
+/* Main Formulário */
+
+.img-contato img {
+  height: 400px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px 0px #f2a03d;
+}
+
+.Formulario h3 {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #731212;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#contato {
+  display: flex;
+  margin: 60px;
+  gap: 150px;
+}
+
+.Formulario {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+label {
+  color: #f2a03d;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #731212;
+  color: #f2e7dc;
+  border-radius: 12px;
+  padding: 12px 32px;
+  font-size: 16px;
+  margin: 6px auto;
+  cursor: pointer;
+  transition: background-color .5s;
+  width: 250px;
+}
+
+.btn:hover {
+  color: #f2a03d;
+}
+
+/* ASIDE */
+
+.text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  color: #731212;
+}
+
+.aside {
+  display: flex;
+  justify-content: start;
+  padding: 20px;
+}
+
+.aside li {
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+.aside li:hover {
+  color: #f2a03d;
+  transition: background-color 0.5s;
+}
+
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-top: 80px;
+  background-color: #f2a03d;
+}
+
+footer p {
+  color: #731212;
+  font-weight: 600;
+}
+
+h2 {
+  display: none;
+}
+
+/* Responsividade Mobile  */
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .navbar a {
+    font-size: 16px;
+  }
+
+   .img-contato img {
+    height: 200px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
+  #contato {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  
+.Formulario {
+  width: 250px;
+}
+
+.Formulario h3 {
+  gap: 10px;
+  display: none;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: #731212;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+}

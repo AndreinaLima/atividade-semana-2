@@ -13,10 +13,74 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
 <body>
+  <header class="cabecalho">
+    <img src="img/logo.png" alt="Logo">
+    <nav class="navbar">
+      <a href="index.html">Início</a>
+      <a href="receitas.html">Receitas</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+  <main>
+    <section id="contato">
+      <figure class="img-contato">
+        <img src="img/receitas.jpg" alt="Imagem com comida e um caderno para anotar receitas">
+      </figure>
+      
+      <form  class="Formulario">
 
+        <h3><span class="material-symbols-outlined">
+          favorite
+        </span>Deixe aqui a sua receita junina</h3>
+        
+       <h2>
+        Sua receita junina</h2>
+
+        <label for="Nome">Nome da receita</label>
+        <input type="text" name="nome" id="Nome" placeholder="Digite nome da receita:" required>
+
+        <label for="Regiao">Região da receita</label>
+        <select name="regiao" id="Regiao" required>
+          <option>Nordeste</option>
+          <option>Norte</option>
+          <option>Centro-Oeste</option>
+          <option>Sul</option>
+          <option>Sudeste</option>
+        </select>
+
+        <label for="Data">Data de envio da receita</label>
+        <input type="date" name="data" id="Data" required>
+
+        <label for="Receita">Passo a passo da receita:</label>
+        <textarea name="receita" id="Receita" required></textarea>
+
+        <button type="submit" class="btn">Enviar</button>
+
+      </form>
+    </section>
+  </main>
+  <aside>
+    <h3 class="text"><span class="material-symbols-outlined">
+      person
+    </span>Links para contato</h3>
+    <nav class="aside">
+      <ul>
+        <li><a href="#">Fale conosco</a></li>
+        <li><a href="#">Saiba mais sobre o são joão</a></li>
+        <li><a href="#">Comunidade do arraiá</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <footer>
+    <p>&copy; 2024 Arraiá de Receitas. Todos os direitos reservados.</p>
+  </footer>
 </body>
 
 </html>
