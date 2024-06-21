@@ -1,0 +1,161 @@
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f2e7dc;
+}
+
+.cabecalho {
+    background-color: #f2a03d;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.cabecalho img {
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #731212;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.navbar a:hover {
+    color: #f2e7dc;
+}
+
+
+#sobre {
+    margin: auto;
+    width: 1000px;
+}
+
+#sobre h1 {
+    font-size: 46px;
+    font-weight: 600;
+    color: #731212;
+    text-align: left;
+    margin-top: 80px;
+    text-shadow: 1px 2px 2px #121212;
+}
+
+.sobre-section {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+#sobre p {
+    font-size: 18px;
+    text-align: justify;
+    padding: 40px 0;
+    line-height: 30px;
+    color: #731212;
+}
+
+figure img {
+    height: 260px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px 0px #f2a03d;
+}
+
+#sao-joao {
+    margin: auto;
+    width: 1000px;
+}
+
+#sao-joao h3 {
+    font-size: 46px;
+    font-weight: 600;
+    color: #731212;
+    text-align: left;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    text-shadow: 1px 2px 2px #121212;
+}
+
+#sao-joao p {
+    font-size: 18px;
+    text-align: justify;
+    width: 1000px;
+    padding: 20px 0;
+    line-height: 30px;
+    color: #731212;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 80px;
+    background-color: #f2a03d;
+}
+
+footer p {
+    color: #731212;
+    font-weight: 600;
+}
+
+/* Responsividade Mobile */
+@media (max-width: 480px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+    }
+
+    #sobre {
+        width: 80%;
+    }
+
+    #sobre h1 {
+        font-size: 30px;
+    }
+
+    .sobre-section {
+        width: 100%;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    figure img {
+        height: 180px;
+    }
+
+    #sao-joao {
+        width: 80%;
+    }
+
+    #sao-joao h3 {
+        font-size: 30px;
+    }
+
+    .sj-section {
+        width: 100%;
+        margin: auto;
+    }
+
+    #sao-joao p {
+        width: 100%
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}

@@ -42,6 +42,10 @@ img {
   height: 400px;
 }
 
+.imagem-inicio-mb img {
+  display: none;
+}
+
 #inicio h1 {
   font-size: 46px;
   font-weight: 600;
@@ -142,6 +146,15 @@ footer p {
   }
   .navbar a {
     font-size: 16px;
+  }
+
+  .imagem-inicio-mb img {
+    display: flex;
+    height: 220px;
+  }
+
+  .imagem-inicio {
+    display: none;
   }
 
   h3 {
