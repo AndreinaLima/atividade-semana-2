@@ -1,0 +1,296 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f2e7dc;
+}
+
+.cabecalho {
+  background-color: #f2a03d;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.cabecalho img {
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: #731212;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+.navbar a:hover {
+  color: #f2e7dc;
+}
+
+.receitas-introducao h1 {
+    font-size: 46px;
+    font-weight: 600;
+    color: #731212;
+    text-align: center;
+    margin: 80px 0;
+    text-shadow: 1px 2px 2px #121212;
+}
+
+.receitas-introducao p {
+  font-size: 18px;
+  text-align: justify;
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  line-height: 30px;
+  color: #731212;
+}
+
+.section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.section-card {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 10px;
+  color: #731212;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-card a {
+  text-align: center;
+}
+
+.section-card img {
+  width: 180px;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 5px 5px 10px 0px #f2a03d;
+}
+
+
+
+.container-melhores-receitas h4 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #731212;
+  text-align: center;
+  margin: 80px 0;
+  text-shadow: 1px 2px 2px #121212;
+}
+
+.imagem-receita {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.imagem-receita img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0px #f2a03d;
+}
+
+.imagem-receita h6 {
+  font-size: 26px;
+  color: #731212;
+  padding-top: 16px;
+}
+
+#pamonha {
+  display: flex;
+  font-size: 18px;
+  gap: 100px;
+  margin: 60px auto;
+  width: 70%;
+}
+
+#canjica {
+  display: flex;
+  font-size: 18px;
+  gap: 100px;
+  margin: 60px auto;
+  width: 70%;
+}
+
+#bolo {
+  display: flex;
+  font-size: 18px;
+  gap: 100px;
+  margin: 60px auto;
+  width: 70%;
+}
+
+#pacoca {
+  display: flex;
+  font-size: 18px;
+  gap: 100px;
+  margin: 60px auto;
+  width: 70%;
+}
+
+.ingredientes {
+  margin-bottom: 20px;
+}
+
+.ingredientes h3 {
+  font-size: 28px;
+  text-align: center;
+  padding: 0 10px 20px 20px;
+  color: #f2a03d;
+  font-weight: 600;
+}
+
+.ingredientes ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  width: 200px;
+}
+
+.ingredientes li {
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+  color: #731212;
+  width: auto;
+}
+
+.preparo h2 {
+  font-size: 28px;
+  text-align: center;
+  padding: 0 10px 20px 20px;
+  color: #f2a03d;
+  font-weight: 600;
+}
+
+.preparo p {
+  text-align: justify;
+  padding: 50px, 0, 0, 0;
+  color: #731212;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2a03d;
+  color: #731212;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: #731212;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-top: 80px;
+  background-color: #f2a03d;
+}
+
+footer p {
+  color: #731212;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .navbar a {
+    font-size: 16px;
+  }
+  article {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-card a {
+    padding-bottom: 10px;
+  }
+
+  #foto-pamonha {
+    width: 350px;
+  }
+
+  #foto-canjica {
+    width: 350px;
+  }
+
+  #foto-bolo {
+    width: 350px;
+  }
+
+  #foto-pacoca {
+    width: 350px;
+  }
+
+  article img {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 16px;
+  }
+
+  .receitas-introducao h1 {
+    font-size: 30px;
+    padding: 0 40px;
+  }
+
+  .receitas-introducao p {
+    font-size: 16px;
+    text-align: justify;
+    width: 380px;
+    margin: 20px;
+    padding: 20px;
+    line-height: 30px;
+    color: #731212;
+  }
+
+  .ingredientes ul {
+    padding-left: 10px;
+  }
+
+  .preparo p {
+    font-size: 0.9em;
+  }
+
+  table th,
+  table td {
+    font-size: 0.9em;
+    padding: 6px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+}
