@@ -22,8 +22,8 @@ O projeto é composto por quatro páginas principais:
 
 1. **index.html**: Página inicial do site, onde são destacadas as receitas mais acessadas.
 2. **receitas.html**: Página com a lista completa de receitas juninas.
-3. **sobre.html**: Página com informações sobre o projeto e a equipe.
-4. **contato.html**: Página para que os usuários possam entrar em contato conosco.
+3. **sobre.html**: Página com informações sobre o projeto e a história do são joão.
+4. **contato.html**: Página para que os usuários possam entrar em contato conosco e enviar suas receitas.
 
 ## Arquivos de Estilo
 
